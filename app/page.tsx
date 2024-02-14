@@ -63,10 +63,6 @@ async function getAppData(router, deviceType = 'usb') {
 }
 
 const WHITELIST = [
-    'kasvault.io',
-    'preview.kasvault.io',
-    'privatepreview.kasvault.io',
-    'kasvault.vercel.app',
     'kasvault.netlify.app',
     'kasvault.itzhakian.com',
 ];
@@ -89,7 +85,7 @@ export default function Home() {
             }
         }
 
-        setIsShowDemo(window.location.hostname !== 'kasvault.io');
+        setIsShowDemo(window.location.hostname !== 'kasvault.itzhakian.com');
     });
 
     const smallStyles = width <= 48 * 16 ? { fontSize: '1rem' } : {};
