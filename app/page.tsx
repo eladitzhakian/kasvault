@@ -62,10 +62,7 @@ async function getAppData(router, deviceType = 'usb') {
     }
 }
 
-const WHITELIST = [
-    'kasvault.netlify.app',
-    'kasvault.itzhakian.com',
-];
+const WHITELIST = ['kasvault.netlify.app', 'kasvault.itzhakian.com'];
 
 export default function Home() {
     const router = useRouter();
