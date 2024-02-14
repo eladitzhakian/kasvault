@@ -67,6 +67,8 @@ const WHITELIST = [
     'preview.kasvault.io',
     'privatepreview.kasvault.io',
     'kasvault.vercel.app',
+    'kasvault.netlify.app',
+    'kasvault.itzhakian.com',
 ];
 
 export default function Home() {
